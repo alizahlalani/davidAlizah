@@ -48,10 +48,10 @@ class Header extends Component {
             />
           ))}
         <div className="slider-content">
-          <h3 className="pre-title">{title}</h3>
           <h1 className="title">
             {names[0]} <i className="icon icon-hearts" /> {names[1]}
           </h1>
+          <h3 className="pre-title">{title}</h3>
           {!isLoggedIn && (
             <Input
               type="password"

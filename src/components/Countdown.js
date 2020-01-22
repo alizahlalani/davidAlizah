@@ -7,6 +7,7 @@ class Countdown extends Component {
     super(props)
 
     this.state = {
+      years: 0,
       days: 0,
       hours: 0,
       min: 0,
@@ -27,11 +28,13 @@ class Countdown extends Component {
   updateCountdown = () => {
     const date = this.calculateCountdown(this.props.date)
     date ? this.setState(date) : this.stop()
+
   }
 
   calculateCountdown(targetDate) {
     let diff =
       (Date.parse(new Date(targetDate)) - Date.parse(new Date())) / 1000
+
 
     // Clear countdown when date is reached
     if (diff <= 0) return false
@@ -86,6 +89,21 @@ class Countdown extends Component {
 
     return (
       <div className={this.props.className}>
+        {countDown.years>0 ?
+          <span className="countdown-col">
+            <span className="countdown-col-element">
+              <strong className="countdown-col-element-number">
+                {this.addLeadingZeros(countDown.years)}
+              </strong>
+              <span className="countdown-col-element-text">
+                {countDown.years === 1 ? 'year' : 'years'}
+              </span>
+            </span>
+          </span>
+          :
+          <span/>
+        }
+
         <span className="countdown-col">
           <span className="countdown-col-element">
             <strong className="countdown-col-element-number">
