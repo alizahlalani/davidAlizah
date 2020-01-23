@@ -7,18 +7,21 @@
     "images": [
       "../images/header_1.jpg",
       "../images/header_2.jpg",
-      "../images/header_3.jpg",
-      "../images/header_4.jpg",
-      "../images/header_5.jpg",
-      "../images/header_2.jpg"
+      "../images/img1.jpg",
+      "../images/img2.jpeg",
+      "../images/img3.jpg",
+      "../images/img4.jpg"
     ],
     "imagesMobile": [
-      "../images/header_1_mobile.jpg",
-      "../images/header_2_mobile.jpg",
-      "../images/header_1_mobile.jpg",
-      "../images/header_2_mobile.jpg",
-      "../images/header_1_mobile.jpg",
-      "../images/header_2_mobile.jpg"
+      "../images/header_1.jpg",
+      "../images/mob1.jpg",
+      "../images/mob2.jpg",
+      "../images/mob4.jpg",
+      "../images/mob5.jpg",
+      "../images/mob6.jpg",
+      "../images/mob7.jpg",
+      "../images/mob8.jpeg",
+      "../images/mob9.jpg"
     ]
   },
   "ourStory": {
