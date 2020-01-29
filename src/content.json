@@ -5,15 +5,14 @@
     "date": "2021-05-22T14:00:00+02:00",
     "inputLabel": "Enter password",
     "images": [
+      "../images/img3.jpg",
       "../images/header_1.jpg",
-      "../images/header_2.jpg",
       "../images/img1.jpg",
       "../images/img2.jpeg",
-      "../images/img3.jpg",
+      "../images/header_2.jpg",
       "../images/img4.jpg"
     ],
     "imagesMobile": [
-      "../images/header_1.jpg",
       "../images/mob1.jpg",
       "../images/mob2.jpg",
       "../images/mob4.jpg",
