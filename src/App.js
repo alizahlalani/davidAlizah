@@ -16,18 +16,18 @@ class App extends Component {
     super(props)
 
     this.state = {
-      isLoggedIn: true,
+      isLoggedIn: false,
     }
   }
 
-  // checkSecretCode = value => {
-  //   if (value === process.env.REACT_APP_SECRET_CODE) {
-  //     this.setState({
-  //       isLoggedIn: true,
-  //     })
-  //     window.gtag('event', 'login')
-  //   }
-  // }
+  checkSecretCode = value => {
+    if (value === process.env.REACT_APP_SECRET_CODE) {
+      this.setState({
+        isLoggedIn: true,
+      })
+      window.gtag('event', 'login')
+    }
+  }
 
   isFuture = date => new Date(date) > new Date()
 
