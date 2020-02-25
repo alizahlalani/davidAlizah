@@ -6,7 +6,8 @@ const Section = ({ title, text, id, childComponent }) => (
   <section className="section" id={id}>
     <div className="section-text-wrapper">
       <div className={title ? 'section-heading' : 'section-separator'}>
-        {title && <h2>{title}</h2>}
+        {/* {title && <h2>{title}</h2>} */}
+        <img src="../images/FAQs.png" alt="" className="titleImg" />
       </div>
       {text && (
         <ReactMarkdown

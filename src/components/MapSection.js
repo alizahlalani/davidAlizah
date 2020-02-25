@@ -51,8 +51,8 @@ class MapSection extends Component {
           <GoogleMap
             bootstrapURLKeys={{
               key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
-              language: 'sv',
-              region: 'SE',
+              language: 'en',
+              region: 'US',
             }}
             defaultCenter={center}
             defaultZoom={zoom}

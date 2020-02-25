@@ -6,6 +6,7 @@
     "inputLabel": "Enter password",
     "images": [
       "../images/portrait.jpg",
+      "../images/portrait.jpg",
       "../images/img3.jpg",
       "../images/header_1.jpg",
       "../images/img1.jpg",
@@ -14,6 +15,7 @@
       "../images/img4.jpg"
     ],
     "imagesMobile": [
+      "../images/portrait.jpg",
       "../images/portrait.jpg",
       "../images/mob1.jpg",
       "../images/mob2.jpg",
@@ -27,7 +29,7 @@
   },
   "ourStory": {
     "id": "ourStory",
-    "title": "Our Story",
+    "title": "",
     "text": ""
   },
   "timeline": [
@@ -51,55 +53,59 @@
   ],
   "hashtag": {
     "id": "hashtag",
-    "title": "#OurWedding",
+    "title": "",
     "text": "Follow the hashtag [#OurWedding](https://www.instagram.com/explore/tags/ourwedding/). Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "wallUrl": "https://walls.io/r3jeq?nobackground=1&show_header=0&columns=5"
   },
+  "venue":{
+    "id":"venue",
+    "title": "The Venue"
+  },
   "info": {
     "id": "info",
-    "title": "Info",
-    "text": "## Wedding Ceremony\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n## Wedding Party\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n## Speeches\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n* Toastmaster, [toastmaster@gmail.com](mailto:toastmaster@gmail.com), 07X-XXX XX XX\n* Toastmadame, [toastmadame@gmail.com](mailto:toastmadame@gmail.com), 07X-XXX XX XX\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n## Bus\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "title": "FAQs",
+    "text": "## So... why Canada?\nWe like the mountains, and want everyone to experience the beauty of the Canadian Rockies! Also, who doesn't love summer camp? Really there's not a specific reason, but we fell in love with the venue the first time we saw it, and we think it will be an amazing place to celebrate with all of our friends and families.\n## But how do I get there?\nThe closest airport is Calgary, Alberta (YYC). We highly suggest you rent a car and stay a few extra days to explore Banff and Jasper. The venue itself is about an hour long drive from the airport. When the formal invitation comes out, the website will be updated to provide additional details on shuttlebus service.\n## The wedding is at a summer camp?!\nYes! The camp has hundreds of acres of trails to explore and plenty of activities. Activities? Think canoeing, horseback riding, archery, ropes courses, and so many more. And yes, as wedding guests, you will have access to all these activities and more! Once the formal invitation is out, more details will be provided.\n## You keep mentioning “formal invitation”. When can I expect mine?\nThe formal invitation will be sent to you sometime in May or early June. While you are more than welcome to take your time and plan your visit to the Canadian Rockies, we want to give you as much time as possible to plan! We would love to have you come to our wedding and want to give you the best possible chance of being there.\n## Where will I stay?\nDetails will be provided on the website and with your formal invitation!\n## So… it’s four days? Can I pick and choose what I attend?\nPakistani weddings tend to be several days long. On Friday, we plan to have a dinner combined with a mehndi (henna) night and a sangeet (dance performances – and yes you are welcome to perform!). On Saturday, we will have the ceremony and reception. Sunday is where things break from tradition. If you know anything about us as a couple, you know that we love games. Sunday will be a field day – with various camp activities in a competition between teams. Lastly, on Monday, we will host a farewell brunch. When the RSVP form is available (in May), you can choose to RSVP to any or all events.\n## I have more questions!\nWe will continue to update the website throughout the next few months, and the formal invitation will provide a lot more detail, but don’t hesitate to [contact Alizah](mailto:alizah.lalani@gmail.com) if you have more questions. You can also [contact David](mailto:donkeykonguh@gmail.com), but his response rate is questionable at best.\n## I’m super excited!!!\nSo are we!!!"
   },
   "map": {
     "id": "map",
     "title": "Map",
     "center": {
-      "lat": 51.064311,
-      "lng": -115.073243
+      "lat": 51.046372,
+      "lng": -115.227715
     },
     "locations": [
       {
         "id": "wedding",
         "title": "Ceremony",
-        "text": "**When:** 14:00\n\n**Where:** Borlunda Kyrka, Eslöv\n\n**Link:** [Google Maps](https://goo.gl/maps/emwCfHeKa6F2)",
+        "text": "**When:** 3:00pm\n\n**Where:** Camp Chief Hector, Exshaw\n\n**Link:** [Google Maps](https://goo.gl/maps/PkCCMBU64fce66tV6)",
         "icon": "rings",
-        "latitude": "55.800718",
-        "longitude": "13.3227702",
-        "link": "https://goo.gl/maps/emwCfHeKa6F2"
+        "latitude": "51.064311",
+        "longitude": "-115.073243",
+        "link": "https://goo.gl/maps/PkCCMBU64fce66tV6"
       },
       {
         "id": "party",
         "title": "Party",
-        "text": "**Where:** Ellinge slott, Ellinge Gård, Eslöv\n\n**Link:** [Google Maps](https://goo.gl/maps/ZDo9Vwz5Jok)",
+        "text": "**Where:** Camp Chief Hector, Hector Lodge\n\n**Link:** [Google Maps](https://goo.gl/maps/PkCCMBU64fce66tV6)",
         "icon": "wine-glasses",
-        "latitude": "55.81167275",
-        "longitude": "13.287460530674393",
-        "link": "https://goo.gl/maps/ZDo9Vwz5Jok"
+        "latitude": "51.061422",
+        "longitude": "-115.075346",
+        "link": "https://goo.gl/maps/PkCCMBU64fce66tV6"
       },
       {
         "id": "bus",
         "title": "Bus",
-        "text": "**Where:** Lund C, stop M\n\n**Link:** [Skånetrafiken](https://www.skanetrafiken.se/globalassets/dokumentbank/terminalkartor2/2019/81216_lundc_terminalkarta_a3.pdf)",
+        "text": "**Where:** Stoneridge Mountain Resort\n\n**Link:** [Google Maps](https://goo.gl/maps/7HqeK2NwWHD2sBr17)",
         "icon": "bus",
-        "latitude": "55.706388",
-        "longitude": "13.187646",
-        "link": "https://goo.gl/maps/zhi6htp3BiHAAWok6"
+        "latitude": "51.081737",
+        "longitude": "-115.341295",
+        "link": "https://goo.gl/maps/7HqeK2NwWHD2sBr17"
       }
     ]
   },
   "miscInfo": {
     "id": "miscInfo",
-    "title": "More Info",
+    "title": "",
     "text": "## Brunch\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n## Accomodation\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "modalButton": "Read more about accomodation",
     "modalTitle": "Accomodation",
@@ -107,12 +113,12 @@
   },
   "wishlist": {
     "id": "wishlist",
-    "title": "Wishlist",
+    "title": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   "rsvp": {
     "id": "rsvp",
-    "title": "RSVP",
+    "title": "",
     "forms": [
       {
         "id": "wedding-form",
@@ -133,7 +139,7 @@
   },
   "imageUpload": {
     "id": "imageUpload",
-    "title": "Image Upload",
+    "title": "",
     "forms": [
       {
         "id": "upload-form",
@@ -147,7 +153,7 @@
   },
   "contact": {
     "id": "contact",
-    "title": "Contact Us",
+    "title": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua:\n* Alice: 07X-XXX XX XX\n* Bob: 07X-XXX XX XX\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua: [wedding@gmail.com](mailto:wedding@gmail.com)"
   },
   "footer": {

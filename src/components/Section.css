@@ -9,10 +9,10 @@
   margin: 0 auto;
 }
 
-.section-heading {
+/* .section-heading {
   padding-top: 30px;
   padding-bottom: 15px;
-}
+} */
 
 .section-heading h2 {
   font-family: 'Great Vibes', cursive;
@@ -25,13 +25,13 @@
   padding-bottom: 15px;
 }
 
-.section-heading:after,
+/* .section-heading:after,
 .section-separator:after {
   content: '';
   background: url('../images/separator.png') no-repeat center center;
   height: 100px;
   display: block;
-}
+} */
 
 .section-text {
   line-height: 1.5em;
@@ -44,10 +44,15 @@
   margin: 0;
 }
 
+#pg{
+  text-align: left;
+}
+
 .section-text h2 {
   margin-top: 30px;
   margin-bottom: 15px;
   font-size: 24px;
+  text-align: left;
 }
 
 .section-text a {
@@ -57,4 +62,11 @@
 
 .section-text a:hover {
   text-decoration: underline;
+}
+
+.titleImg{
+  height: 10em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,5 +1,5 @@
 .map-section {
-  min-height: 450px;
+  min-height: 650px;
   display: flex;
   box-shadow: 1px 10px 40px rgba(0, 0, 0, 0.4);
   flex-wrap: wrap;
@@ -30,4 +30,8 @@
 
 .map-section a:hover {
   text-decoration: underline;
+}
+
+.map-location-wrapper{
+  margin-top:5%
 }

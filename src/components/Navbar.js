@@ -43,6 +43,7 @@ class Navbar extends Component {
   render() {
     const mobileMenuItems = this.props.items.map((item, index) => {
       return (
+        item.title.length > 0 ? 
         <MobileMenuItem
           key={index}
           delay={`${index * 0.1}s`}
@@ -52,6 +53,8 @@ class Navbar extends Component {
         >
           {item.title}
         </MobileMenuItem>
+        :
+        ''
       )
     })
 

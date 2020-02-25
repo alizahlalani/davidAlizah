@@ -7,6 +7,7 @@ import MapSection from './components/MapSection'
 import Modal from './components/Modal'
 import Navbar from './components/Navbar'
 import Section from './components/Section'
+import Venue from './components/Venue'
 import Timeline from './components/Timeline'
 import content from './content.json'
 import './App.css'
@@ -16,18 +17,18 @@ class App extends Component {
     super(props)
 
     this.state = {
-      isLoggedIn: false,
+      isLoggedIn: true, //make this false and uncomment below for password
     }
   }
 
-  checkSecretCode = value => {
-    if (value === process.env.REACT_APP_SECRET_CODE) {
-      this.setState({
-        isLoggedIn: true,
-      })
-      window.gtag('event', 'login')
-    }
-  }
+  // checkSecretCode = value => {
+  //   if (value === process.env.REACT_APP_SECRET_CODE) {
+  //     this.setState({
+  //       isLoggedIn: true,
+  //     })
+  //     window.gtag('event', 'login')
+  //   }
+  // }
 
   isFuture = date => new Date(date) > new Date()
 
@@ -41,6 +42,7 @@ class App extends Component {
             items={[
               'ourStory',
               'hashtag',
+              'venue',
               'info',
               'map',
               'miscInfo',
@@ -64,13 +66,13 @@ class App extends Component {
         )}
         <Header
           {...content.header}
-          scrollTo={content.ourStory.id}
+          scrollTo={content.venue.id} //id for next scroll page
           isLoggedIn={isLoggedIn}
           onInputChange={this.checkSecretCode}
         />
         {isLoggedIn && (
           <div className="app-content">
-            <Section
+            {/* <Section
               {...content.ourStory}
               childComponent={<Timeline items={content.timeline} />}
             />
@@ -81,15 +83,18 @@ class App extends Component {
               childComponent={
                 <InstagramWall wallUrl={content.hashtag.wallUrl} />
               }
-            />
-            <Section {...content.info} />
+            /> */}
+            <Venue id={content.venue.id} />
+            <div id="pg">
+              <Section {...content.info}/>
+            </div>
             <MapSection
               center={content.map.center}
               zoom={11}
               locations={content.map.locations}
               id={content.map.id}
             />
-            <Section
+            {/* <Section
               title={content.miscInfo.title}
               text={content.miscInfo.text}
               id={content.miscInfo.id}
@@ -109,7 +114,7 @@ class App extends Component {
               <FormsSection {...content.imageUpload} newWindow />
             )}
             <Section {...content.contact} />
-            <Section {...content.footer} />
+            <Section {...content.footer} /> */}
           </div>
         )}
       </div>
