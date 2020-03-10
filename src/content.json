@@ -5,26 +5,26 @@
     "date": "2021-05-22T24:00:00+02:00",
     "inputLabel": "Enter password",
     "images": [
-      "../images/portrait.jpg",
-      "../images/portrait.jpg",
-      "../images/img3.jpg",
-      "../images/header_1.jpg",
-      "../images/img1.jpg",
-      "../images/img2.jpeg",
-      "../images/header_2.jpg",
-      "../images/img4.jpg"
+      "https://storage.googleapis.com/david-and-alizah/portrait.jpg",
+      "https://storage.googleapis.com/david-and-alizah/portrait.jpg",
+      "https://storage.googleapis.com/david-and-alizah/img3.jpg",
+      "https://storage.googleapis.com/david-and-alizah/header_1.jpg",
+      "https://storage.googleapis.com/david-and-alizah/img1.jpg",
+      "https://storage.googleapis.com/david-and-alizah/img2.jpeg",
+      "https://storage.googleapis.com/david-and-alizah/header_2.jpg",
+      "https://storage.googleapis.com/david-and-alizah/img4.jpg"
     ],
     "imagesMobile": [
-      "../images/portrait.jpg",
-      "../images/portrait.jpg",
-      "../images/mob1.jpg",
-      "../images/mob2.jpg",
-      "../images/mob4.jpg",
-      "../images/mob5.jpg",
-      "../images/mob6.jpg",
-      "../images/mob7.jpg",
-      "../images/mob8.jpeg",
-      "../images/mob9.jpg"
+      "https://storage.googleapis.com/david-and-alizah/portrait.jpg",
+      "https://storage.googleapis.com/david-and-alizah/portrait.jpg",
+      "https://storage.googleapis.com/david-and-alizah/mob1.jpg",
+      "https://storage.googleapis.com/david-and-alizah/mob2.jpg",
+      "https://storage.googleapis.com/david-and-alizah/mob4.jpg",
+      "https://storage.googleapis.com/david-and-alizah/mob5.jpg",
+      "https://storage.googleapis.com/david-and-alizah/mob6.jpg",
+      "https://storage.googleapis.com/david-and-alizah/mob7.jpg",
+      "https://storage.googleapis.com/david-and-alizah/mob8.jpeg",
+      "https://storage.googleapis.com/david-and-alizah/mob9.jpg"
     ]
   },
   "ourStory": {
@@ -36,7 +36,7 @@
     {
       "date": "2021-05-22",
       "text": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "../images/1000x500.png",
+      "image": "https://storage.googleapis.com/david-and-alizah/1000x500.png",
       "side": "left"
     },
     {
@@ -47,7 +47,7 @@
     {
       "date": "2019-02-20",
       "text": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "../images/1000x500.png",
+      "image": "https://storage.googleapis.com/david-and-alizah/1000x500.png",
       "side": "right"
     }
   ],
