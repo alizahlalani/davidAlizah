@@ -48,7 +48,7 @@ class Venue extends Component {
             </div>
             <div className={"text"}>
                 <h2>Camp Chief Hector</h2>
-                <h3>Friday, May 21 - Monday, May 24, 2021</h3>
+                <h3>Friday, May 20 - Monday, May 23, 2022</h3>
                 <p>
                     Camp Chief Hector is a summer camp located in Exshaw, Canada in the heart of the Canadian Rockies. It is approximately a one hour drive from the Calgary International Airport, and within short driving distance to scenic Banff, Lake Louise, and Canmore.
                 </p>
